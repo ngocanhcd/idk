@@ -1,1 +1,1 @@
-https://www.roblox.com/games/1537690962/Bee-Swarm-Simulator?privateServerLinkCode=75982557223570954034538577735062
+https://www.roblox.com/share?code=1fe299be319daa4f8f573f8b0bb6c780&type=Server
