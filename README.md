@@ -1,5 +1,5 @@
-https://www.roblox.com/share?code=ac7061c0364ac24097d92f9bfccf7f22&type=Server
+https://www.roblox.com/share?code=7b990b0dfbc30f40b88ee68ee6eaf081&type=Server
 
-https://www.mediafire.com/file/9uen72tzg3ce0it/Roblox_-_VNG_Arceus_X_NEO_1.5.0.apk/file
+https://www.mediafire.com/file/d2z61eerih9qtc6/Roblox_-_VNG_Arceus_X_NEO_1.5.3.apk/file
 
 loadstring(game:HttpGet("https://scripts.macrov4.com/macrov3.lua"))()
