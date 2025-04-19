@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TAO HATE CODE</title>
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <script src="./assets/js/menu.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./assets/js/slider.js"></script>
+  </head>
+  <body>
+    <div class="background-register">
+      <div class="card-register">
+        <div class="card-body">
+          <form>
+            <div class="form-group">
+              <label for="name"
+                >Họ và tên thí sinh <span style="color: red">(*)</span></label
+              >
+              <input type="text" id="name" placeholder="Họ và tên" required />
+            </div>
+
+            <div class="form-group">
+              <label for="email"
+                >Email <span style="color: red">(*)</span></label
+              >
+              <input type="email" id="email" placeholder="Email" required />
+            </div>
+
+            <div class="form-group">
+              <label for="province"
+                >Tỉnh/TP <span style="color: red">(*)</span></label
+              >
+              <select id="province" required>
+                <option>--Chọn Tỉnh/Thành phố THPT--</option>
+              </select>
+            </div>
+
+            <div class="row1">
+              <div class="form-group">
+                <label for="campus"
+                  >Đăng ký học tại <span style="color: red">(*)</span></label
+                >
+                <select id="campus" required>
+                  <option>-- Lựa chọn --</option>
+                  <option>FPT University Hà Nội</option>
+                  <option>FPT University TP. Hồ Chí Minh</option>
+                  <option>FPT University Đà Nẵng</option>
+                  <option>FPT University Cần Thơ</option>
+                  <option>FPT University Quy Nhơn</option>
+                  <option>FPT University Tây Nguyên (Gia Lai)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="major"
+                  >Chuyên ngành đăng ký
+                  <span style="color: red">(*)</span></label
+                >
+                <select id="major" required>
+                  <option>-- Lựa chọn --</option>
+                  <option>Thiết kế đồ họa</option>
+                  <option>Trí tuệ nhân tạo</option>
+                  <option>An toàn thông tin</option>
+                  <option>Khoa học dữ liệu</option>
+                  <option>Thiết kế mỹ thuật số</option>
+                  <option>Kỹ thuật phần mềm</option>
+                  <option>Kinh doanh quốc tế</option>
+                  <option>Quản trị kinh doanh</option>
+                  <option>Marketing</option>
+                  <option>Logistics và Quản lý chuỗi cung ứng</option>
+                  <option>Quản trị khách sạn</option>
+                  <option>Quản trị dịch vụ du lịch & lữ hành</option>
+                  <option>Ngôn ngữ Anh</option>
+                  <option>Ngôn ngữ Nhật</option>
+                  <option>Ngôn ngữ Hàn</option>
+                  <option>Truyền thông đa phương tiện</option>
+                  <option>Thiết kế trải nghiệm người dùng (UX/UI)</option>
+                  <option>Tài chính</option>
+                  <option>Kế toán</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="phone"
+                >Số điện thoại <span style="color: red">(*)</span></label
+              >
+              <input
+                type="tel"
+                id="phone"
+                placeholder="Số điện thoại"
+                required
+              />
+            </div>
+
+            <button class="submit-btn" type="submit">Đăng ký</button>
+            <div class="note">(*) Thông tin bắt buộc.</div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
